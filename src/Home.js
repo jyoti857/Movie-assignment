@@ -34,10 +34,6 @@ function Home({navigation}){
   }, [flag])
   return (
     <View style  = {styles.container}>
-      <Button 
-        title="Go to Search 2"
-        onPress={() => navigation.navigate('Details')}
-      />
       <View style ={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
         <TextInput  
           style = {styles.input} 
@@ -48,18 +44,18 @@ function Home({navigation}){
         />
         
       </View>
-      <ScrollView>
+      <ScrollView contentContainerStyle = {{flexDirection: 'row', flexWrap: 'wrap', width: 440}} >
       { 
         // contentContainerStyle={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap'}} 
          !searchValue ?  data && data.length > 0 && data.map((d) => <ScrollView 
-         contentContainerStyle={{ backgroundColor: 'red', flexWrap: 'wrap', width: 300, display: 'flex',  flexDirection: 'row'}}
+         contentContainerStyle={{ backgroundColor: 'violet', flexWrap: 'wrap', width: 210, margin: 3,  display: 'flex',  flexDirection: 'row'}}
          key = {d.imdbID} horizontal showsHorizontalScrollIndicator = {false} >
            {/* <ScrollView contentContainerStyle={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap'}} horizontal showsHorizontalScrollIndicator = {false}> */}
             <CustomCard
               style={styles.card} 
               uri = {d.Poster} movieTitle = {d.Title} 
               onPress = {() => navigation.navigate('Details', {uri: d.Poster, movieTitle: d.Title, year: d.Year, type: d.Type})}/> 
-          </ScrollView>) : dataC && dataC.length > 0 && dataC.map((dc ) => <View key = {dc.imdbID} >
+          </ScrollView>) : dataC && dataC.length > 0 && dataC.map((dc ) => <View key = {dc.imdbID}>
             <CustomCard uri = {dc.Poster} movieTitle = {dc.Title} 
             onPress = {() => navigation.navigate('Details', {uri: dc.Poster, movieTitle: dc.Title,  year: dc.Year, type: dc.Type})}/> 
           </View> )
@@ -83,19 +79,21 @@ const styles = StyleSheet.create({
   input: {
     marginTop: 30,
     height: 30,
-    width: 500,
+    width: 400,
     margin: 12,
+    borderRadius: 12,
     borderWidth: 1,
-    padding: 4,
+    paddingLeft: 4,
+    color: 'red'
   },
   button: {
     width: 200,
     alignContent: 'center'
   },
   card: {
-    width: 200,
-    display: 'flex',
-    flexDirection: 'row'
+    flex: 1,
+    width: 300,
+    borderRadius: 20
   }
 })
 
