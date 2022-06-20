@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Button, StyleSheet, ScrollView, TextInput } from "react-native";
+import { View, StyleSheet, ScrollView, TextInput } from "react-native";
 import CustomCard from './Components/Card';
 
 const {useState, useEffect} = React
@@ -46,11 +46,9 @@ function Home({navigation}){
       </View>
       <ScrollView contentContainerStyle = {{flexDirection: 'row', flexWrap: 'wrap', width: 440}} >
       { 
-        // contentContainerStyle={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap'}} 
          !searchValue ?  data && data.length > 0 && data.map((d) => <ScrollView 
          contentContainerStyle={{ backgroundColor: 'violet', flexWrap: 'wrap', width: 210, margin: 3,  display: 'flex',  flexDirection: 'row'}}
          key = {d.imdbID} horizontal showsHorizontalScrollIndicator = {false} >
-           {/* <ScrollView contentContainerStyle={{ flex: 1, flexDirection: 'row', flexWrap: 'wrap'}} horizontal showsHorizontalScrollIndicator = {false}> */}
             <CustomCard
               style={styles.card} 
               uri = {d.Poster} movieTitle = {d.Title} 
@@ -65,7 +63,6 @@ function Home({navigation}){
           </ScrollView> )
         }
       </ScrollView>
-        
     </View>
   )
 }
