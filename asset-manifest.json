@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/expo-gh-pages/static/js/app.553a680d.chunk.js",
-    "app.js.map": "/expo-gh-pages/static/js/app.553a680d.chunk.js.map",
+    "app.js": "/expo-gh-pages/static/js/app.8b5de503.chunk.js",
+    "app.js.map": "/expo-gh-pages/static/js/app.8b5de503.chunk.js.map",
     "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.57d3d678.js",
     "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.57d3d678.js.map",
-    "static/js/2.a0418a2c.chunk.js": "/expo-gh-pages/static/js/2.a0418a2c.chunk.js",
-    "static/js/2.a0418a2c.chunk.js.map": "/expo-gh-pages/static/js/2.a0418a2c.chunk.js.map",
+    "static/js/2.7d7ef248.chunk.js": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js",
+    "static/js/2.7d7ef248.chunk.js.map": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js.map",
     "fonts/MaterialCommunityIcons.ttf": "/expo-gh-pages/./fonts/MaterialCommunityIcons.ttf",
     "favicon-16.png": "/expo-gh-pages/favicon-16.png",
     "favicon-32.png": "/expo-gh-pages/favicon-32.png",
@@ -13,11 +13,11 @@
     "index.html": "/expo-gh-pages/index.html",
     "manifest.json": "/expo-gh-pages/manifest.json",
     "serve.json": "/expo-gh-pages/serve.json",
-    "static/js/2.a0418a2c.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.a0418a2c.chunk.js.LICENSE.txt"
+    "static/js/2.7d7ef248.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime~app.57d3d678.js",
-    "static/js/2.a0418a2c.chunk.js",
-    "static/js/app.553a680d.chunk.js"
+    "static/js/2.7d7ef248.chunk.js",
+    "static/js/app.8b5de503.chunk.js"
   ]
 }
