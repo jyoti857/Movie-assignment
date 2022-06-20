@@ -7,7 +7,7 @@ return(
     <Card style={{...style, margin: 10}} onPress = {onPress}>
       <Card.Title title={movieTitle} 
        />
-      <Card.Cover source={{ uri }} style = {{width:190}} />
+      <Card.Cover source={{ uri }} />
       <Card.Content>
         <Title>{movieTitle}</Title> 
         { year && <Paragraph>Year: {year}</Paragraph>}
