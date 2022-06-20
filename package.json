@@ -1,7 +1,7 @@
 {
   "name": "movie-app",
   "version": "1.0.0",
-  "homepage": "http://jyoti857.github.io/Movie-assignment",
+  "homepage": "https://jyoti857.github.io/Movie-assignment",
   "type": "module",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
