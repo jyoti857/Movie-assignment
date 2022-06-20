@@ -55,10 +55,14 @@ function Home({navigation}){
               style={styles.card} 
               uri = {d.Poster} movieTitle = {d.Title} 
               onPress = {() => navigation.navigate('Details', {uri: d.Poster, movieTitle: d.Title, year: d.Year, type: d.Type})}/> 
-          </ScrollView>) : dataC && dataC.length > 0 && dataC.map((dc ) => <View key = {dc.imdbID}>
-            <CustomCard uri = {dc.Poster} movieTitle = {dc.Title} 
+          </ScrollView>) : dataC && dataC.length > 0 && dataC.map((dc ) => <ScrollView 
+          key = {dc.imdbID}
+          contentContainerStyle={{ backgroundColor: 'violet', flexWrap: 'wrap', width: 210, margin: 3,  display: 'flex',  flexDirection: 'row'}}
+          horizontal showsHorizontalScrollIndicator = {false}
+          >
+            <CustomCard uri = {dc.Poster} movieTitle = {dc.Title}   style={styles.card} 
             onPress = {() => navigation.navigate('Details', {uri: dc.Poster, movieTitle: dc.Title,  year: dc.Year, type: dc.Type})}/> 
-          </View> )
+          </ScrollView> )
         }
       </ScrollView>
         
