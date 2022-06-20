@@ -1,23 +1,23 @@
 {
   "files": {
-    "app.js": "/expo-gh-pages/static/js/app.8b5de503.chunk.js",
-    "app.js.map": "/expo-gh-pages/static/js/app.8b5de503.chunk.js.map",
-    "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.57d3d678.js",
-    "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.57d3d678.js.map",
-    "static/js/2.7d7ef248.chunk.js": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js",
-    "static/js/2.7d7ef248.chunk.js.map": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js.map",
-    "fonts/MaterialCommunityIcons.ttf": "/expo-gh-pages/./fonts/MaterialCommunityIcons.ttf",
-    "favicon-16.png": "/expo-gh-pages/favicon-16.png",
-    "favicon-32.png": "/expo-gh-pages/favicon-32.png",
-    "favicon.ico": "/expo-gh-pages/favicon.ico",
-    "index.html": "/expo-gh-pages/index.html",
-    "manifest.json": "/expo-gh-pages/manifest.json",
-    "serve.json": "/expo-gh-pages/serve.json",
-    "static/js/2.7d7ef248.chunk.js.LICENSE.txt": "/expo-gh-pages/static/js/2.7d7ef248.chunk.js.LICENSE.txt"
+    "app.js": "/Movie-assignment/static/js/app.8b5de503.chunk.js",
+    "app.js.map": "/Movie-assignment/static/js/app.8b5de503.chunk.js.map",
+    "runtime~app.js": "/Movie-assignment/static/js/runtime~app.a03b9ef0.js",
+    "runtime~app.js.map": "/Movie-assignment/static/js/runtime~app.a03b9ef0.js.map",
+    "static/js/2.5ab218de.chunk.js": "/Movie-assignment/static/js/2.5ab218de.chunk.js",
+    "static/js/2.5ab218de.chunk.js.map": "/Movie-assignment/static/js/2.5ab218de.chunk.js.map",
+    "fonts/MaterialCommunityIcons.ttf": "/Movie-assignment/./fonts/MaterialCommunityIcons.ttf",
+    "favicon-16.png": "/Movie-assignment/favicon-16.png",
+    "favicon-32.png": "/Movie-assignment/favicon-32.png",
+    "favicon.ico": "/Movie-assignment/favicon.ico",
+    "index.html": "/Movie-assignment/index.html",
+    "manifest.json": "/Movie-assignment/manifest.json",
+    "serve.json": "/Movie-assignment/serve.json",
+    "static/js/2.5ab218de.chunk.js.LICENSE.txt": "/Movie-assignment/static/js/2.5ab218de.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime~app.57d3d678.js",
-    "static/js/2.7d7ef248.chunk.js",
+    "static/js/runtime~app.a03b9ef0.js",
+    "static/js/2.5ab218de.chunk.js",
     "static/js/app.8b5de503.chunk.js"
   ]
 }
