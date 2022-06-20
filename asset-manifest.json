@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/Movie-assignment/static/js/app.8b5de503.chunk.js",
-    "app.js.map": "/Movie-assignment/static/js/app.8b5de503.chunk.js.map",
+    "app.js": "/Movie-assignment/static/js/app.9fe67833.chunk.js",
+    "app.js.map": "/Movie-assignment/static/js/app.9fe67833.chunk.js.map",
     "runtime~app.js": "/Movie-assignment/static/js/runtime~app.a03b9ef0.js",
     "runtime~app.js.map": "/Movie-assignment/static/js/runtime~app.a03b9ef0.js.map",
     "static/js/2.5ab218de.chunk.js": "/Movie-assignment/static/js/2.5ab218de.chunk.js",
@@ -18,6 +18,6 @@
   "entrypoints": [
     "static/js/runtime~app.a03b9ef0.js",
     "static/js/2.5ab218de.chunk.js",
-    "static/js/app.8b5de503.chunk.js"
+    "static/js/app.9fe67833.chunk.js"
   ]
 }
